@@ -11,6 +11,7 @@ body {
    display: flex;
    flex-direction: row;
   justify-content: space-between;
+   
     
 }
 
@@ -19,20 +20,21 @@ body {
     flex-direction: row;
     justify-content: space-between;
    
-}#nav-bar{
+}
+#nav-connections {
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-    
-   justify-content:space-around ;
-    
+    width: 200px;
+    align-items: normal;
+    list-style-type: none;
 }
-#logo-bar{
-display: flex;
+#logo-bar {
+    display: flex;
     flex-direction: row;
-    
-   
+
 }
-#nav-bar a {
+#nav-container a {
     display: flex;
      flex-direction: row;
     text-decoration: none;
@@ -40,16 +42,7 @@ display: flex;
 
 }
 
-#nav-a {
-justify-content: space-between;
-display: flex;
-flex-direction: row;
-width: 200px;
-align-items:normal;
-list-style-type: none;
 
-
-}
 
 #address-bar a{
     list-style-type: none;
