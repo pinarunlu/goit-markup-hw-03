@@ -154,19 +154,19 @@ font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
     width: hug (169px);
     height: hug (56px);
-    padding: 16px,32px,16px,32px;
+    padding: 16px, 32px, 16px, 32px;
     border-radius: 4px;
     gap: 10px;
-    
-   
-   
-   
-  
-   
+    color: #ffffff;
+    cursor: pointer;
+    align-items: center;
+         
+}
+#button.container{
+justify-content: center;
+    align-items: center;
 }
 
 button:hover {
