@@ -12,20 +12,17 @@ body {
    display: flex;
    flex-direction: row;
   justify-content: space-evenly;
- 
   border: 0px,0px,1px,0px;
-  padding-left: 10px;
-  
-     
+  gap: 10px; 
 }
 
 #nav-container{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-   
-   
+    gap: 20px;
 }
+
 #nav-connections {
     justify-content: flex-start;
     display: flex;
@@ -68,7 +65,6 @@ ul#address-container{
     flex-direction: row;
     justify-content: flex-start;
     gap: 40px;
-    padding-left: 70px;
     padding-top: 8px;
  
 }
@@ -82,7 +78,6 @@ ul#address-container{
     text-transform: uppercase;
     color: #4d5ae5;
     width: 71px;
-
     padding-top: 24px;
        
 }
