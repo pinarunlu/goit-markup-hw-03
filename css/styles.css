@@ -180,12 +180,30 @@ button:hover {
 button:focus {
     background-color: #404BBF;
 }
+#features-section-container{
+display: flex;
+    flex-direction: row;
+ width: 1158px;
+}
+#features-section-container-header{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   gap: 10px;
+}
+ul#features-section-container-header{
+    list-style-type: none;
+}
+#hidden-header{
+    display: none;
+}
 .features-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;    
+    color: #2e2f42;   
+
 }
 .first-text {
     line-height: 1.5;
