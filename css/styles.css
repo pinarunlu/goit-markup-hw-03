@@ -263,12 +263,14 @@ display: flex;
 #portfolio-cards-main-container{
     display: flex;
         flex-direction: row;
+        justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 150px;
 }
 #portfolio-cards-main-container li{
     list-style-type: none;
     border: 1px;
+    
 }
 .portfolio-header {
     font-size: 36px;
@@ -294,8 +296,24 @@ display: flex;
 
 }
 
+#footer-container{
+    display: flex;
+    flex-direction: column;
 
+}
 
+#footer-main-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left:65px ;
+
+}
+
+#footer-text-container{
+    width: 264px;
+}
 .footer {
 background-color: #2e2f42;
 
@@ -310,6 +328,7 @@ background-color: #2e2f42;
     line-height: 1.17;
     letter-spacing: 0.03em;
     font-family: "Raleway", sans-serif;
+    text-decoration: none;
 }
 span.studio-second {
     color: #f4f4fd;
