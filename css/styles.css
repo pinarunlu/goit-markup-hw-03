@@ -65,7 +65,7 @@ ul#address-container{
     flex-direction: row;
     justify-content: flex-start;
     gap: 40px;
-    padding-top: 8px;
+   
  
 }
 
@@ -78,7 +78,7 @@ ul#address-container{
     text-transform: uppercase;
     color: #4d5ae5;
     width: 71px;
-    padding-top: 24px;
+    padding-top: 22px;
        
 }
 span {
