@@ -10,24 +10,26 @@ body {
 #header-container{
    display: flex;
    flex-direction: row;
-  justify-content: space-between;
-  width: 1440px;
+  justify-content: space-evenly;
+  width: 1158px;
   height: 72px;
   border: 0px,0px,1px,0px;
+  
      
 }
 
 #nav-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+   
    
 }
 #nav-connections {
     justify-content: flex-start;
     display: flex;
     flex-direction: row;
-    width: 200px;
+    width: hug(261px);
     align-items: center;
     list-style-type: none;
     padding-left: 200px;
@@ -45,9 +47,7 @@ body {
 list-style-type: none;
 width: 151px;
     height: 24px;
-   
-
-
+    
 }
 #mailto-address a{
     text-decoration: none;
@@ -62,11 +62,14 @@ width: 151px;
 #tel-address a{
     text-decoration: none;  
 }
-#address-container{
-display: flex;
+ul#address-container{
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 40px;
+    padding-left: 70px;
+    padding-top: 8px;
+ 
 }
 
 .header-logo {
@@ -79,10 +82,8 @@ display: flex;
     color: #4d5ae5;
     width: 71px;
     height: 21px;
-    padding-left: 156px;
+    padding-left: 35px;
     padding-top: 24px;
-   
-
 }
 span {
     color: #2e2f42;
@@ -106,6 +107,7 @@ nav a:focus {
 
 .address-list {
 font-style: normal;
+
 }
 
 .first-address {
@@ -122,8 +124,8 @@ font-style: normal;
 
 .first-section {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
+    width: 1158px;
+   height: 600px;
 }
 
 
@@ -134,7 +136,7 @@ font-style: normal;
 }
 
 
-.special-header {
+.first-section-text {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -142,31 +144,29 @@ font-style: normal;
     color: #ffffff;
     width: 496px;
     height: 120px;
-    padding-top: 260px;
+  padding-top: 260px;
     padding-left: 472px;
+    align-items: center;
+    
     
 
 }
-.button-selector {
+.button-text {
     background-color: #4D5AE5;
     font-family: "Roboto" ,sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    width: hug (169px);
-    height: hug (56px);
-    padding: 16px, 32px, 16px, 32px;
-    border-radius: 4px;
-    gap: 10px;
     color: #ffffff;
     cursor: pointer;
-    align-items: center;
-         
-}
-#button.container{
-justify-content: center;
-    align-items: center;
+    border-radius: 4px;
+        padding: 16px, 32px, 16px, 32px;
+        gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+       
 }
 
 button:hover {
