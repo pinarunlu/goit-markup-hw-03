@@ -3,6 +3,7 @@ body {
 }
 body {
     color: #434455;
+    width: 1158px;
 }
 body {
     background-color: #FFFFFF;
@@ -11,8 +12,7 @@ body {
    display: flex;
    flex-direction: row;
   justify-content: space-evenly;
-  width: 1158px;
-  height: 72px;
+ 
   border: 0px,0px,1px,0px;
   padding-left: 10px;
   
@@ -47,7 +47,7 @@ body {
 #mailto-address{
 list-style-type: none;
 width: 151px;
-    height: 24px;
+   
     
 }
 #mailto-address a{
@@ -58,7 +58,7 @@ width: 151px;
 #tel-address{
 list-style-type: none;
 width: 151px;
-    height: 24px;
+    
 }
 #tel-address a{
     text-decoration: none;  
@@ -82,7 +82,7 @@ ul#address-container{
     text-transform: uppercase;
     color: #4d5ae5;
     width: 71px;
-    height: 21px;
+
     padding-top: 24px;
        
 }
@@ -125,8 +125,7 @@ font-style: normal;
 
 .first-section {
     background-color: #2e2f42;
-    width: 1158px;
-   height: 600px;
+  
 }
 
 
@@ -183,7 +182,7 @@ button:focus {
 #features-section-container{
 display: flex;
     flex-direction: row;
- width: 1158px;
+
 }
 #features-section-container-header{
     display: flex;
@@ -211,6 +210,23 @@ ul#features-section-container-header{
 }
 .team-section {
   background-color: #F4F4FD;  
+  
+}
+#team-card-container{
+display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+
+}
+#team-card-container li{
+    list-style-type: none;
+    text-align: center;
+
+}
+#team-card-main-container{
+    padding-bottom: 100px;
 }
 .team-header {
     font-size: 36px;
@@ -219,6 +235,8 @@ ul#features-section-container-header{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 110px;
+    padding-bottom: 50px;
 }
 .team-card {
     background-color: #FFFFFF;
