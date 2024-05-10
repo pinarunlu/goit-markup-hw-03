@@ -14,6 +14,7 @@ body {
   width: 1158px;
   height: 72px;
   border: 0px,0px,1px,0px;
+  padding-left: 10px;
   
      
 }
@@ -82,8 +83,8 @@ ul#address-container{
     color: #4d5ae5;
     width: 71px;
     height: 21px;
-    padding-left: 35px;
     padding-top: 24px;
+       
 }
 span {
     color: #2e2f42;
@@ -132,7 +133,12 @@ font-style: normal;
 #first-section-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-betweens;
+    justify-content: space-around;
+
+     padding-top: 230px;
+     padding-bottom: 260px;
+     padding-left: 250px;
+    
 }
 
 
@@ -143,12 +149,8 @@ font-style: normal;
     letter-spacing: 0.02em;
     color: #ffffff;
     width: 496px;
-    height: 120px;
-  padding-top: 260px;
-    padding-left: 472px;
-    align-items: center;
-    
-    
+   
+  
 
 }
 .button-text {
@@ -161,13 +163,16 @@ font-style: normal;
     color: #ffffff;
     cursor: pointer;
     border-radius: 4px;
-        padding: 16px, 32px, 16px, 32px;
-        gap: 10px;
-        margin-left: auto;
+    padding-top: 10px; 
+    padding-bottom: 10px;  
+               margin-left: auto;
         margin-right: auto;
-        align-items: center;
-       
+             
 }
+#button-container{
+    
+}
+
 
 button:hover {
     background-color: #404BBF;
