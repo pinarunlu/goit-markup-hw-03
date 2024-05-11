@@ -83,6 +83,7 @@ ul#address-container{
 }
 span {
     color: #2e2f42;
+    
 }
 
 .header-list-first {
@@ -217,6 +218,7 @@ display: flex;
 
 }
 #team-card-main-container{
+    display: block;
     padding-bottom: 100px;
 }
 .team-header {
@@ -247,7 +249,7 @@ display: flex;
 
 }
 #portfolio-cards-container{
-display: flex;
+display: block;
     flex-direction: row;
    
 }
