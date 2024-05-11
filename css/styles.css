@@ -260,6 +260,10 @@ display: flex;
     letter-spacing: 0.02em;
 
 }
+#portfolio-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 #portfolio-cards-container{
 display: block;
     
