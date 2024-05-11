@@ -8,16 +8,15 @@ body {
 body {
     background-color: #FFFFFF;
 } 
-#header-main-container{
+.header-main-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     border-bottom: 1px solid #E7E9FC;
-    gap: 10px;
+   
     padding-top: 24px;
         padding-bottom: 24px;
-        padding-top: 24px;
-            padding-bottom: 24px;
+        
 }
 
 #nav-container{
