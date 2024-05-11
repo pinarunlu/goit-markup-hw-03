@@ -35,6 +35,8 @@ body {
     list-style-type: none;
     padding-left: 200px;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 #nav-container a {
@@ -58,6 +60,7 @@ width: 151px;
 #tel-address{
 list-style-type: none;
 width: 151px;
+margin-right: 0px;
     
 }
 #tel-address a{
@@ -68,6 +71,9 @@ ul#address-container{
     flex-direction: row;
     justify-content: flex-start;
     gap: 40px;
+    margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
    
  
 }
