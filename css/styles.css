@@ -8,15 +8,15 @@ body {
 body {
     background-color: #FFFFFF;
 } 
-.header-container{
+#header-container{
    display: flex;
    flex-direction: row;
   justify-content: space-evenly;
-  border-bottom: 1px, solid, #e7e9fc;
+  border-bottom: 0px,0px,1px,0px;
   gap: 10px; 
 }
 
-.nav-container{
+#nav-container{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -250,7 +250,7 @@ display: flex;
 }
 #portfolio-cards-container{
 display: block;
-    flex-direction: row;
+    
    
 }
 #portfolio-cards-main-container{
