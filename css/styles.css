@@ -8,12 +8,15 @@ body {
 body {
     background-color: #FFFFFF;
 } 
+.header-main-container{
+border-bottom: 1px solid #E7E9FC;
+}
+
 #header-container{
    display: flex;
    flex-direction: row;
   justify-content: space-evenly;
  
-  border-bottom: 1px solid #E7E9FC;
   gap: 10px; 
 }
 
