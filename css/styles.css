@@ -301,7 +301,7 @@ display: block;
 
 }
 
-.footer-container{
+#footer-container{
     display: block;
    
 
@@ -315,8 +315,8 @@ display: block;
 
 }
 
-#footer-text-container{
-    width: 264px;
+.footer-text-container{
+    max-width:264px;
 }
 .footer {
 background-color: #2e2f42;
@@ -335,6 +335,8 @@ padding-top: 100px;
     letter-spacing: 0.03em;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 span.studio-second {
     color: #f4f4fd;
