@@ -12,7 +12,8 @@ body {
    display: flex;
    flex-direction: row;
   justify-content: space-evenly;
-  border-bottom: 0px,0px,1px,0px;
+ 
+  border-bottom: 1px solid #E7E9FC;
   gap: 10px; 
 }
 
