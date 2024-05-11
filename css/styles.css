@@ -20,7 +20,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #nav-connections {
@@ -78,7 +81,8 @@ ul#address-container{
     text-transform: uppercase;
     color: #4d5ae5;
     width: 71px;
-    padding-top: 22px;
+   
+    margin-right: 0cqb(76px);
        
 }
 span {
