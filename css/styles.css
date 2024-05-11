@@ -24,6 +24,8 @@ body {
     gap: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 #nav-connections {
@@ -35,8 +37,7 @@ body {
     list-style-type: none;
     padding-left: 200px;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 #nav-container a {
