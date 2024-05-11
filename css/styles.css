@@ -10,6 +10,7 @@ body {
 } 
 .header-main-container{
 border-bottom: 1px solid #E7E9FC;
+gap: 10px;
 }
 
 #header-container{
@@ -17,7 +18,6 @@ border-bottom: 1px solid #E7E9FC;
    flex-direction: row;
   justify-content: space-evenly;
  
-  gap: 10px; 
 }
 
 #nav-container{
