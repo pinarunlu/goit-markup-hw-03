@@ -14,6 +14,10 @@ body {
     justify-content: space-evenly;
     border-bottom: 1px solid #E7E9FC;
     gap: 10px;
+    padding-top: 24px;
+        padding-bottom: 24px;
+        padding-top: 24px;
+            padding-bottom: 24px;
 }
 
 #nav-container{
@@ -24,8 +28,7 @@ body {
     gap: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 24px;
-        padding-bottom: 24px;
+    
 }
 
 #nav-connections {
@@ -73,8 +76,7 @@ ul#address-container{
     justify-content: flex-start;
     gap: 40px;
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
    
  
 }
@@ -89,7 +91,7 @@ ul#address-container{
     color: #4d5ae5;
     width: 71px;
    
-    margin-right: 0cqb(76px);
+    margin-right: 76px;
        
 }
 span {
