@@ -8,7 +8,7 @@ body {
 body {
     background-color: #FFFFFF;
 } 
-.header-main-container{
+#header-main-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
