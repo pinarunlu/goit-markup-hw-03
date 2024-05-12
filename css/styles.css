@@ -301,7 +301,7 @@ display: block;
 .portfolio-cards-main-container li:nth-child(6) {
     margin-right: 0;
 }
-.portfolio-card-borders li:first-child{
+.portfolio-card-borders{
     width: calc((100% - 48px) / 3);
     
 }
