@@ -231,7 +231,7 @@ ul#features-section-container-header{
 .team-card-container li:last-child{
     margin-right: 0;
 }
-.team-card-main-container{
+#team-card-main-container{
     display: block;
   
 }
