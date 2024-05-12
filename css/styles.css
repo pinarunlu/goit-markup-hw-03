@@ -272,11 +272,14 @@ display: block;
         flex-direction: row;
         justify-content: space-around;
     flex-wrap: wrap;
+    
   
 }
 #portfolio-cards-main-container li{
     list-style-type: none;
     border: 1px;
+    column-gap: 24px;
+    row-gap: 48px;
     
 }
 .portfolio-header {
