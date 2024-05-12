@@ -34,7 +34,7 @@ body {
     justify-content: flex-start;
     display: flex;
     flex-direction: row;
-    width: hug(261px);
+    width: 261px;
     align-items: center;
     list-style-type: none;
     padding-left: 200px;
@@ -47,14 +47,13 @@ body {
      flex-direction: row;
     text-decoration: none;
     list-style-type: none;
-
 }
+
 #mailto-address{
 list-style-type: none;
-width: 151px;
-   
-    
+width: 151px;   
 }
+
 #mailto-address a{
     text-decoration: none;
     
@@ -69,16 +68,15 @@ margin-right: 0px;
 #tel-address a{
     text-decoration: none;  
 }
-ul#address-container{
-    display: flex;
+#address-connections{
+display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
     gap: 40px;
     margin-right: 40px;
-    
-   
- 
 }
+
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -89,7 +87,6 @@ ul#address-container{
     text-transform: uppercase;
     color: #4d5ae5;
     width: 71px;
-   
     margin-right: 76px;
        
 }
