@@ -278,9 +278,16 @@ display: block;
 #portfolio-cards-main-container li{
     list-style-type: none;
     border: 1px;
-    column-gap: 24px;
-    row-gap: 48px;
     
+}
+.portfolio-card-borders{
+    width: calc((100% - 48px) / 3);
+}
+#portfolio-card-border-containers{
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .portfolio-header {
     font-size: 36px;
