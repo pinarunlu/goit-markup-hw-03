@@ -276,24 +276,22 @@ ul#features-section-container-header{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.portfolio-cards-container{
-display: block;
-    
-   
+#portfolio-cards-container{
+display: block;  
 }
 .portfolio-cards-main-container{
     display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
     flex-wrap: wrap;
     
-    
-  
 }
 .portfolio-cards-main-container li{
     list-style-type: none;
     border: 1px;
-    
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-bottom: 48px;
     
 }
 
