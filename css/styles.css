@@ -291,6 +291,8 @@ display: block;
     list-style-type: none;
     border: 1px;
     column-gap: 24px;
+    row-gap: 48px;
+    
     
 }
 .portfolio-cards-main-container li:nth-child(3){
