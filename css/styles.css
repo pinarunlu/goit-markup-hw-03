@@ -273,6 +273,7 @@ display: block;
         justify-content: space-around;
     flex-wrap: wrap;
     
+    
   
 }
 .portfolio-cards-main-container li{
@@ -281,10 +282,17 @@ display: block;
     
     
 }
-.portfolio-card-borders{
+
+.portfolio-card-borders li:first-child{
     width: calc((100% - 48px) / 3);
     
 }
+
+.portfolio-card-borders li:last-child {
+    margin-right: 0;
+}
+
+
 .portfolio-card-border-containers{
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
