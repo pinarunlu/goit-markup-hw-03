@@ -68,15 +68,16 @@ margin-right: 0px;
 #tel-address a{
     text-decoration: none;  
 }
-#address-connections{
-display: flex;
+
+ul#address-container {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
     margin-right: 40px;
+    
 }
-
 
 .header-logo {
     font-family: "Raleway", sans-serif;
