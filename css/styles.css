@@ -187,13 +187,14 @@ button:focus {
 .features-section-container{
 display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: 120px 0;
 
 }
 .features-section-container-header{
     display: flex;
     flex-direction: row;
-   justify-content: space-evenly;
+   justify-content: space-between;
    gap: 24px;
 }
 ul.features-section-container-header{
