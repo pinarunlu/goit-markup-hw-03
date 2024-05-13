@@ -16,13 +16,14 @@ body {
 width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
+margin: 0 auto;
    
         
 }
 .header-section-class{
 border-bottom: 1px solid #e7e9fc;
 }
-#nav-container{
+.nav-container{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
