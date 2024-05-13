@@ -40,6 +40,8 @@ margin: 0 auto;
     gap: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 24px;
+        padding-bottom: 24px;
     
 }
 
@@ -50,8 +52,7 @@ margin: 0 auto;
     width: 261px;
     align-items: center;
     list-style-type: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
    
     gap: 40px;
     
