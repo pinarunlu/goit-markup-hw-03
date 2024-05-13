@@ -9,22 +9,20 @@ body {
     background-color: #FFFFFF;
 } 
 
-.header-section-class {
-border-bottom: 1px solid #e7e9fc;
-}
 .header-main-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
    
         
 }
-.header-main-div-container{
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+.header-section-class{
+border-bottom: 1px solid #e7e9fc;
 }
-.nav-container{
+#nav-container{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -39,14 +37,11 @@ border-bottom: 1px solid #e7e9fc;
     justify-content: flex-start;
     display: flex;
     flex-direction: row;
-   padding-top: 24px;
-   padding-bottom: 24px;
-
+    width: 261px;
     align-items: center;
     list-style-type: none;
-   
+    padding-left: 200px;
     gap: 40px;
-   
     
 }
 
