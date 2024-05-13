@@ -57,7 +57,7 @@ border-bottom: 1px solid #e7e9fc;
 
 #mailto-address{
 list-style-type: none;
-width: 151px;   
+  
 }
 
 #mailto-address a{
@@ -67,7 +67,7 @@ width: 151px;
 
 #tel-address{
 list-style-type: none;
-width: 151px;
+
 margin-right: 0px;
     
 }
