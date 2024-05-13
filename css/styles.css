@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: "Roboto", sans-serif ;
 }
@@ -348,7 +355,7 @@ display: block;
 }
 .portfolio-card-borders:nth-child(6) {
     margin-bottom: 0;
-   margin-right: 0;
+    margin-right: 0;
 }
 .portfolio-card-borders:last-child {
     margin-right: 0;
