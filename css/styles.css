@@ -34,7 +34,7 @@ border-bottom: 1px solid #e7e9fc;
     
 }
 
-#nav-connections {
+.nav-connections {
     justify-content: flex-start;
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@ border-bottom: 1px solid #e7e9fc;
     
 }
 
-#nav-container a {
+.nav-container a {
     display: flex;
      flex-direction: row;
     text-decoration: none;
