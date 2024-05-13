@@ -181,7 +181,7 @@ button:hover {
 button:focus {
     background-color: #404BBF;
 }
-.features-section-div-container{
+.container-section {
     display: block;
 }
 .features-section-container{
@@ -201,7 +201,16 @@ ul.features-section-container-header{
     list-style-type: none;
 }
 #hidden-header{
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .features-section-list-elements li:first-child {
     flex-basis: calc((100% - 3 * 24px) / 4)
