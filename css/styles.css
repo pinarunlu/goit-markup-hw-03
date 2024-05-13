@@ -57,6 +57,8 @@ border-bottom: 1px solid #e7e9fc;
 
 #mailto-address{
 list-style-type: none;
+padding-top: 24px;
+    padding-bottom: 24px;
   
 }
 
@@ -67,6 +69,8 @@ list-style-type: none;
 
 #tel-address{
 list-style-type: none;
+padding-top: 24px;
+        padding-bottom: 24px;
 
 margin-right: 0px;
     
@@ -83,8 +87,7 @@ ul.address-container {
     align-items: center;
     gap: 40px;
     margin-right: 40px;
-    padding-top: 24px;
-        padding-bottom: 24px;
+   
     
 }
 
