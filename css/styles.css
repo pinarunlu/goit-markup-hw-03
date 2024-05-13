@@ -201,6 +201,7 @@ display: flex;
     flex-direction: row;
    justify-content: space-between;
    gap: 24px;
+   padding-left: 0;
 }
 ul.features-section-container-header{
     list-style-type: none;
@@ -217,8 +218,8 @@ ul.features-section-container-header{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.features-section-list-elements li:first-child {
-    flex-basis: calc((100% - 3 * 24px) / 4)
+.features-section-list-elements  {
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .features-section-list-elements :last-child{
 margin-right: 0;
