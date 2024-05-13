@@ -41,6 +41,8 @@ border-bottom: 1px solid #e7e9fc;
     width: 261px;
     align-items: center;
     list-style-type: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
     padding-left: 200px;
     gap: 40px;
     
@@ -73,13 +75,15 @@ margin-right: 0px;
     text-decoration: none;  
 }
 
-ul#address-container {
+ul.address-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
     margin-right: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
     
 }
 
