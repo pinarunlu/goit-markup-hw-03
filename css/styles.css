@@ -187,7 +187,7 @@ button:focus {
 .features-section-container{
 display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
     padding: 120px 0;
 
 }
@@ -201,10 +201,16 @@ ul.features-section-container-header{
     list-style-type: none;
 }
 #hidden-header{
-    visibility: hidden;
+    display: none;
 }
-.features-section-list-elements li:first-child{
-    width: calc((100% - 72px) / 4)
+.features-section-list-elements li:first-child {
+    flex-basis: calc((100% - 3 * 24px) / 4)
+}
+.features-section-list-elements :last-child{
+margin-right: 0;
+}
+.features-section-list-elements li{
+margin-right: 24px;
 }
 .features-header {
     font-weight: 500;
