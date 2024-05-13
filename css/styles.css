@@ -8,18 +8,23 @@ body {
 body {
     background-color: #FFFFFF;
 } 
+
+.header-section-class {
+border-bottom: 1px solid #e7e9fc;
+}
 .header-main-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border-bottom: 1px solid #E7E9FC;
    
-    padding-top: 24px;
-    padding-bottom: 24px;
         
 }
-
-#nav-container{
+.header-main-div-container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-container{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -34,11 +39,14 @@ body {
     justify-content: flex-start;
     display: flex;
     flex-direction: row;
-    width: 261px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+
     align-items: center;
     list-style-type: none;
-    padding-left: 200px;
+   
     gap: 40px;
+   
     
 }
 
