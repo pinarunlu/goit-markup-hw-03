@@ -181,29 +181,37 @@ button:hover {
 button:focus {
     background-color: #404BBF;
 }
-#features-section-container{
+.features-section-div-container{
+    display: block;
+}
+.features-section-container{
 display: flex;
     flex-direction: row;
+    padding: 120px 0;
 
 }
-#features-section-container-header{
+.features-section-container-header{
     display: flex;
     flex-direction: row;
    justify-content: space-evenly;
-   gap: 10px;
+   gap: 24px;
 }
-ul#features-section-container-header{
+ul.features-section-container-header{
     list-style-type: none;
 }
 #hidden-header{
-    display: none;
+    visibility: hidden;
+}
+.features-section-list-elements li:first-child{
+    width: calc((100% - 72px) / 4)
 }
 .features-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;   
+    color: #2e2f42;
+    margin-bottom: 8px
 
 }
 .first-text {
@@ -214,6 +222,10 @@ ul#features-section-container-header{
   background-color: #F4F4FD;  
   padding: 120px 0;
   
+}
+.third-section-div-container {
+    display: block;
+
 }
 .team-card-container{
     display: flex;
@@ -231,10 +243,7 @@ ul#features-section-container-header{
 .team-card-container li:last-child{
     margin-right: 0;
 }
-.third-section-div-container{
-    display: block;
-  
-}
+
 .team-card-border-container{
     padding: 32px 0;
 }
