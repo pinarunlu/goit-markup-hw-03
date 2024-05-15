@@ -162,7 +162,7 @@ padding: 188px 0;
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
-        padding-right: 15px;
+    padding-right: 15px;
 }
 
 
@@ -342,31 +342,8 @@ display: block;
     
     
 }
-.portfolio-card-borders:nth-child(3){
-  margin-right: 0;
-  
-}
-.portfolio-card-borders:nth-child(6) {
-    margin-right: 0;
-}
-.portfolio-card-borders{
+.portfolio-cards-main-container.portfolio-card-borders{
     width: calc((100% - 48px) / 3);
-    
-}
-.portfolio-card-borders:nth-child(4){
-    margin-bottom: 0;
-   
-}
-.portfolio-card-borders:nth-child(5) {
-    margin-bottom: 0;
-   
-}
-.portfolio-card-borders:nth-child(6) {
-    margin-bottom: 0;
-    margin-right: 0;
-}
-.portfolio-card-borders:last-child {
-    margin-right: 0;
 }
 
 
@@ -406,7 +383,7 @@ display: block;
 .footer-main-container{
    display: inline-block;
 margin-bottom: 16px;
-padding-left: 70px;
+
 }
 
 
