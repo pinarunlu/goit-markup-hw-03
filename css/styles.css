@@ -179,7 +179,7 @@ display: flex;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    max-width: 496px
+    max-width: 496px;
 }
 .button-text {
     background-color: #4D5AE5;
@@ -298,7 +298,7 @@ ul.features-section-container-header{
 .team-card {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-sub {
@@ -392,7 +392,7 @@ display: block;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 
 }
 .portfolio-text {
