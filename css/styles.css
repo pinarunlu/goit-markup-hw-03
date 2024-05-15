@@ -40,8 +40,7 @@ margin: 0 auto;
     gap: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 24px;
-        padding-bottom: 24px;
+   
     
 }
 
@@ -123,6 +122,9 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+        padding-bottom: 24px;
+        font-size: 16px;
 }
 nav a:hover {
     color: #404bbf;
