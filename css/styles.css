@@ -260,64 +260,55 @@ ul.features-section-container-header{
   padding: 120px 0;
   
 }
-.third-section-div-container {
-    display: block;
-
+.team-header {
+    margin-bottom: 72px;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
 }
+
 .team-card-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+      gap: 24px;
    
 }
-.team-card-container li{
-    list-style-type: none;
-   justify-content: space-evenly;
-    margin-right: 24px;
-    gap: 24px;
-
+.team-card-container.team-card{
+    width: calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 72px) / 4);
+        background-color: #ffffff;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+        background-color: #ffffff;
 }
-.team-card-container li:last-child{
-    margin-right: 0;
-}
-
 .team-card-border-container{
     padding: 32px 0;
 }
-.team-header {
-    font-size: 36px;
-    line-height: 1.11;
+.team-card-container .team-sub {
     text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    padding-top: 110px;
-    padding-bottom: 50px;
-    margin-bottom: 72px;
-}
-.team-card {
-    background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.team-sub {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: center;
-    margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
 
 }
-.second-text {
+.team-card-container .second-text {
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
 }
+
+
+
+    
+
+
 .portfolio-container{
     padding-top: 120px;
     padding-bottom: 120px;
