@@ -417,14 +417,18 @@ ul.features-section-container-header{
 .footer-main-container{
    display: inline-block;
 margin-bottom: 16px;
+padding-left: 15px;
+    padding-right: 15px;
 
 }
-
 
 .footer {
 background-color: #2e2f42;
 padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 15px;
+        padding-right: 15px;
+  
 
 }
 .footer-logo {
@@ -441,6 +445,10 @@ padding-top: 100px;
     display: inline-block;
     margin-bottom: 16px;
 }
+.footer-main-container a{
+padding-left: 15px;
+    padding-right: 15px;
+}
 span.studio-second {
     color: #f4f4fd;
 }
@@ -448,8 +456,9 @@ span.studio-second {
   line-height: 1.5;  
   color: #F4F4FD;
   letter-spacing: 0.02em;
-max-width: 264px;
+  max-width: 264px;
 }
+
 img {
     display: block;
 }
