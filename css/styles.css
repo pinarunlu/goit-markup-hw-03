@@ -158,9 +158,11 @@ font-style: normal;
 padding: 188px 0;
 }
 
-.container-hero{
+.container-hero {
     width: 1158px;
-        margin: 0 auto;
+    margin: 0 auto;
+    padding-left: 15px;
+        padding-right: 15px;
 }
 
 
@@ -204,18 +206,15 @@ button:focus {
 
 .container-section {
     display: flex;
-        flex-direction: row;
+   
 }
 .features-section-container{
 
     padding: 120px 0;
     
-    
-
 }
 .features-section-container-header{
     display: flex;
-    flex-direction: row;
     gap: 24px;
  
 
@@ -237,7 +236,7 @@ ul.features-section-container-header{
 }
 .features-section-list-elements  {
     width: calc((100% - 72px) / 4);
-        flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 
 }
 
