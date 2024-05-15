@@ -322,9 +322,7 @@ ul.features-section-container-header{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-#portfolio-cards-container{
-display: block;  
-}
+
 .portfolio-cards-main-container{
     display: flex;
         flex-direction: row;
