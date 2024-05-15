@@ -424,10 +424,7 @@ padding-left: 15px;
 
 .footer {
 background-color: #2e2f42;
-padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 15px;
-        padding-right: 15px;
+padding: 100px 0;
   
 
 }
@@ -445,10 +442,7 @@ padding-top: 100px;
     display: inline-block;
     margin-bottom: 16px;
 }
-.footer-main-container a{
-padding-left: 15px;
-    padding-right: 15px;
-}
+
 span.studio-second {
     color: #f4f4fd;
 }
